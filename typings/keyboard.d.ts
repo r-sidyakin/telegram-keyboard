@@ -1,6 +1,6 @@
 import { KeyboardButton } from './key.d'
-import { InlineKeyboardMarkup } from 'typegram/inline'
-import { ReplyKeyboardMarkup, ReplyKeyboardRemove } from 'typegram/callback'
+import { InlineKeyboardMarkup, ReplyKeyboardMarkup, ReplyKeyboardRemove } from 'typegram'
+
 
 export interface ExtraMarkup {
     resize_keyboard?: boolean;
